@@ -19,8 +19,6 @@ local function create_loyd_plush_entity(...)
     instance.components.inventoryitem.imagename = "loyd_plush"
     instance.components.inventoryitem.atlasname = "images/loyd_plush.xml"
 
-    instance:AddComponent("stackable")
-    instance.components.stackable.maxsize = 1
 
     return instance
 end
